@@ -2,7 +2,7 @@
 template: BlogPost
 path: /new
 date: 2020-11-19T17:52:44.352Z
-title: Avocado's ziehen
+title: Einen Avocadobaum anzüchten
 metaDescription: ''
 thumbnail: /assets/avocado.jpeg
 ---
