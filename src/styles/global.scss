@@ -9,11 +9,11 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #381696;
+  --primary-color: #1a8643;
   --primary-text-color: #fff;
-  --featured-bg: #493b8a;
+  --featured-bg: #2ca658;
   --featured-text: #fff;
-  --secondary-color: #10072b;
+  --secondary-color: #70c088;
   --background: #fff;
   --site-header: var(--background);
   --card-bg: #fff;
@@ -29,23 +29,23 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #9984d5;
+  --primary-color: #70c088;
   --primary-text-color: #fff;
-  --featured-bg: #66578d;
+  --featured-bg: #c1e3cb;
   --featured-text: #fff;
-  --secondary-color: #66578d;
-  --background: #0A041A;
+  --secondary-color: #50b370;
+  --background: #041a09;
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);
   --site-header: var(--background);
-  --card-bg: #181326;
-  --card-bdr: #181326;
-  --card-shadow: #020204;
+  --card-bg: #041a09;
+  --card-bdr: #041a09;
+  --card-shadow: #212b23;
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
   --btn-text-color: #868892;
   --btn-hover-bg: var(--btn-bdr);
-  --btn-hover-text-color: #00062b;
+  --btn-hover-text-color: #212b23;
   --contact-bg: var(--card-shadow);
   --contact-bdr: var(--card-bg);
   --input-bg: var(--card-bg);
@@ -53,7 +53,6 @@ body.dark {
 /* System Fonts as used by Medium and WordPress */
 body {
   font-family: $font-family;
-  border-top: 10px solid var(--primary-color);
   background-color: var(--background);
   color: var(--text-color);
 }
