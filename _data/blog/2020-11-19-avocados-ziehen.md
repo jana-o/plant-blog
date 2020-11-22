@@ -27,3 +27,7 @@ Habt ihr keine Lust den Kern im Wasserglas zu ziehen, könnt ihr den Kern auch e
 **Die richtige Pflege**
 
 Die Avocado ist eine Tropenfrucht und mag daher einen hellen, warmen Standort. Ausserdem sollte die Erde feucht sein (aber nicht nass) und besonders im Winter, wenn die Heizung an ist, solltet ihr die Pflanze regelmässig mit einer Wassersprühflasche befeuchten. Damit die Pflanze auch ein paar mehr Blätter bekommt, muss sie zurückgeschnitten werden.
+
+
+
+![](/assets/Avocadobaum.jpg)
