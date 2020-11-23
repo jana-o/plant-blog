@@ -4,7 +4,7 @@ path: /20201119-apple
 date: 2020-11-19T17:52:44.352Z
 title: Wissenswertes über den Apfelbaum
 metaDescription: ''
-thumbnail: /assets/appletree.png
+thumbnail: /assets/appletree.jpg
 ---
 Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
