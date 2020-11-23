@@ -9,7 +9,7 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #1a8643;
+  --primary-color: #117538;
   --primary-text-color: #fff;
   --featured-bg: #2ca658;
   --featured-text: #fff;
@@ -104,15 +104,18 @@ a {
   text-decoration: none;
   font-weight: 900;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 130%;
+  font-weight: 200;
 }
 .hero-header {
-  padding: 0 0 64px;
+  padding: 0 0 30px;
   max-width: 980px;
 }
 .headline {
   font-size: 36px;
-  font-weight: 900;
-  margin-bottom: 0.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
 }
 .button {
   padding: 18px 27px;
@@ -151,7 +154,7 @@ a {
   padding: 0;
   background:var(--background);
   color: var(--text-color);
-  line-height: 1.5;
+  line-height: 2;
   > .blog-post-content {
     max-width: 768px;
     margin: 0 auto;
