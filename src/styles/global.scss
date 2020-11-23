@@ -1,4 +1,5 @@
-$font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+//$font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+$font-family: 'Montserrat', sans-serif;
 
 html,
 body {
@@ -50,7 +51,7 @@ body.dark {
   --contact-bdr: var(--card-bg);
   --input-bg: var(--card-bg);
 }
-/* System Fonts as used by Medium and WordPress */
+
 body {
   font-family: $font-family;
   background-color: var(--background);
@@ -102,9 +103,6 @@ a {
 .site-title a {
   color: var(--primary-color);
   text-decoration: none;
-  font-weight: 900;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
   font-size: 130%;
   font-weight: 200;
 }
