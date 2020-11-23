@@ -19,7 +19,7 @@ Als nächstes brauchte ich einen ausreichend großen Blumentopf. Darin füllte i
 
 Nun musste nur noch gegossen werden und der Blumentopf dann mit einer Plastikfolie bedeckt, die ich an den Seiten mit einem Gummiband fixierte. Durch die Abdeckung bleibt die Feuchtigkeit im Topf erhalten und verhindert so, dass die Ableger austrocknen. Ohne Wurzeln könnten diese sich ja noch nicht aus der Erde selbst versorgen. Schon nach kurzer Zeit kann man die Feuchtigkeit im innern des Topfes deutlich erkennen. Solange die Plastikfolie beschlagen bleibt, muss man auch nicht nachgießen.
 
-![](/assets/IMG_20201122_133156.jpg)
+![](/assets/treibhaus.jpg)
 
 Nach einer Weile bilden sich an den Schnittstellen unter der Erde neue Wurzeln. Bis die Stecklinge allerdings in einzelne Töpfe umgepflanzt werden können, vergeht einige Zeit. Ich konnte nach etwas einem Monat erste deutliche Wurzeln feststellen, lasse die Ableger aber noch 2 bis 3 weitere Monate wachsen, bevor ich die Plastikfolien abnehme und die Bäumchen in ihre eigenen Töpfe umsetze. Als sicheres Zeichen, dass die Ableger zum Umpflanzen bereit sind kann man das Ausbilden neuer Blätter sehen. 
 
