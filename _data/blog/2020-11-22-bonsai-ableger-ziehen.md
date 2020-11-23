@@ -17,6 +17,8 @@ Zuerst braucht man natürlich abgeschnittene Zweige des Baums aus dem man Ablege
 
 Als nächstes brauchte ich einen ausreichend großen Blumentopf. Darin füllte ich eine Erdschicht von ungefähr 5 cm und machte mit einem Holzstäbchen mehrere Löcher mit etwas Abstand in den Boden. In diese steckte ich dann die Zweige, bei denen ich zuvor die untersten Blätter entfernt hatte, sodass keine Blätter unter der Erde landeten.
 
+![](/assets/bonsaiAbleger_300KB.jpg)
+
 Nun musste nur noch gegossen werden und der Blumentopf dann mit einer Plastikfolie bedeckt, die ich an den Seiten mit einem Gummiband fixierte. Durch die Abdeckung bleibt die Feuchtigkeit im Topf erhalten und verhindert so, dass die Ableger austrocknen. Ohne Wurzeln könnten diese sich ja noch nicht aus der Erde selbst versorgen. Schon nach kurzer Zeit kann man die Feuchtigkeit im innern des Topfes deutlich erkennen. Solange die Plastikfolie beschlagen bleibt, muss man auch nicht nachgießen.
 
 ![](/assets/treibhaus.jpg)
