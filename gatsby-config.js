@@ -50,7 +50,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#381696`,
         display: `standalone`,
-        icon: "static/favicon.ico",
+        icon: "src/images/favicon-16x16.png",
       },
     },
     `gatsby-plugin-sass`, 
