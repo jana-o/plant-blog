@@ -3,7 +3,7 @@ template: BlogPost
 path: /20201122-bonsai
 date: 2020-11-22T21:22:03.407Z
 title: Bonsai Ableger ziehen
-thumbnail: /assets/bonsaiAbleger.jpg
+thumbnail: /assets/bonsaiAbleger_300KB.jpg
 ---
 Seit einiger Zeit versuche ich mich in der Bonsai Pflege. Auch, wenn ich auf diesem Gebiet selbst noch sehr viel zu lernen habe, sind mein chinesischer Liguster „Fritz“ und der Pfefferbaum „Peter“ bisher immerhin noch bei bester Gesundheit. Wenn auch ein kleines bisschen aus der Form geraten - Bonsai Gestaltung ist nichts, was man über Nacht lernt.
 
