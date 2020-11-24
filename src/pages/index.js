@@ -19,7 +19,9 @@ const IndexPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>{site.siteMetadata.title}</title>
+      <div className="post-thumbnail" style={{backgroundImage: `url('/assets/header.jpg')`, marginBottom: 0}}>
+            <title>{site.siteMetadata.title}</title>
+        </div>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
       <HeroHeader />
