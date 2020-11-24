@@ -4,7 +4,7 @@ path: /20201119-avocado
 date: 2020-11-19T17:52:44.352Z
 title: Einen Avocadobaum anzüchten
 metaDescription: Avocado
-thumbnail: /assets/avocado.jpeg
+thumbnail: /assets/avocado.jpg
 ---
 Den Anfang macht der Klassiker unter den Zimmerpflanzen, die man selbst einfach nachziehen kann: dem Avocadobaum. Damit fing alles an.
 
