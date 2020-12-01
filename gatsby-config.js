@@ -52,7 +52,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#381696`,
         display: `standalone`,
-        icon: "src/images/favicon-32x32.png",
+        icon: "src/images/monstera.ico",
       },
     },
     `gatsby-plugin-sass`,
