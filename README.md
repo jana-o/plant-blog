@@ -11,3 +11,8 @@ Inside you Netlify CMS admin, `Settings > Config` or you can go to `site-meta-da
 
 ### Add Google Analytics
 Change `trackingId` in `gatsby-config.js` at `gatsby-plugin-google-analytics` plugin
+
+
+### run locally:    
+npm run develop  
+see local version on http://localhost:8000
