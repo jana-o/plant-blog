@@ -1,5 +1,5 @@
-import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import React from "react";
+import { StaticQuery, graphql } from "gatsby";
 export default () => (
   <StaticQuery
     query={graphql`
@@ -14,14 +14,29 @@ export default () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <div className="hero-header">
-        <div className="headline">{data.site.siteMetadata.home.title}</div>
+        <div
+          className="headline"
+          style={{
+            backgroundImage: `url('/assets/header.jpg')`,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            maxHeight: "min(30vh,20vw)",
+            height: "min(30vh,20vw)",
+            textAlign: "center",
+            lineHeight: "min(30vh,20vw)",
+          }}
+        >
+          {data.site.siteMetadata.home.title}
+        </div>
         <div
           className="primary-content"
-          dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description }}
+          dangerouslySetInnerHTML={{
+            __html: data.site.siteMetadata.home.description,
+          }}
         />
       </div>
     )}
   />
-)
+);
