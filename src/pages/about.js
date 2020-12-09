@@ -35,7 +35,10 @@ const AboutPage = () => {
           <p>Wir freuen uns von euch zu hören.</p>
           <br></br>
           <br></br>
-          <p>This page is powered by Netlify, NetlifyCMS and W3Layouts.</p>
+          <p style={{ fontSize: "smaller" }}>
+            This page is powered by Netlify, NetlifyCMS and W3Layouts. <br></br>
+            Title page picture from Pexels.
+          </p>
         </div>
       </div>
     </Layout>
