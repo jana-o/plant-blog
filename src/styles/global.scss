@@ -274,16 +274,12 @@ a {
   }
 }
 /* Portrait and Landscape */
-@media only screen and (min-width: 200px) {
+@media only screen and (min-width: 768px) {
   .grids {
     grid-template-columns: 1fr 1fr;
   }
-  .about-grid {
-    display: grid;
-    grid-template-columns: auto;
-  }
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1024px) {
   .grids {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -292,6 +288,15 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-gap: 64px;
   }
+}
+
+@media only screen and (min-width: 200px) {
+  .about-grid {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media only screen and (min-width: 800px) {
   .about-grid {
     display: grid;
     grid-template-columns: 50% 50%;
