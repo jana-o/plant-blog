@@ -274,12 +274,16 @@ a {
   }
 }
 /* Portrait and Landscape */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 200px) {
   .grids {
     grid-template-columns: 1fr 1fr;
   }
+  .about-grid {
+    display: grid;
+    grid-template-columns: auto;
+  }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 800px) {
   .grids {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -287,6 +291,10 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 64px;
+  }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 }
 

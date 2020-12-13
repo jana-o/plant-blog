@@ -8,12 +8,11 @@ const AboutPage = () => {
       <Helmet>
         <title>About</title>
       </Helmet>
-      <div style={{ display: "grid", gridTemplateColumns: "auto 30%" }}>
+      <div className="about-grid">
         <div
           style={{
             padding: "5vh 0",
             lineHeight: "1.5",
-            maxWidth: "60%",
             alignSelf: "end",
           }}
         >
@@ -27,19 +26,31 @@ const AboutPage = () => {
           </p>
           <p>
             Bei Fragen, Ideen, Anmerkungen schreibt uns unter:<br></br>
-            <span style={{ color: "#117538" }}>
-              zimmergruenblog@gmail.com
-            </span>{" "}
-            <br></br>
+            <form action="mailto:zimmergruenblog@gmail.com">
+              <button
+                type="submit"
+                style={{
+                  color: "#117538",
+                  border: "none",
+                  background: "none",
+                  padding: "0px",
+                  fontSize: "inherit",
+                  cursor: "pointer",
+                }}
+              >
+                zimmergruenblog@gmail.com
+              </button>{" "}
+            </form>
           </p>
           <p>Wir freuen uns von euch zu hören.</p>
           <br></br>
           <br></br>
-          <p style={{ fontSize: "smaller" }}>
-            This page is powered by Netlify, NetlifyCMS and W3Layouts. <br></br>
-            Title page picture from Pexels.
+          <p style={{ fontSize: "smaller", fontStyle: "italic" }}>
+            This page is powered by Netlify, NetlifyCMS and W3Layouts. Title
+            page picture from Pexels.
           </p>
         </div>
+        <div></div>
       </div>
     </Layout>
   );

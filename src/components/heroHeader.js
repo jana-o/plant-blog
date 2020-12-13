@@ -22,10 +22,11 @@ export default () => (
             backgroundImage: `url('/assets/header.jpg')`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            maxHeight: "min(30vh,20vw)",
-            height: "min(30vh,20vw)",
+            maxHeight: "min(20vh,20vw)",
+            height: "min(20vh,20vw)",
             textAlign: "center",
-            lineHeight: "min(30vh,20vw)",
+            lineHeight: "min(20vh,20vw)",
+            opacity: "0.9",
           }}
         >
           {data.site.siteMetadata.home.title}
