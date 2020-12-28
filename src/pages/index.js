@@ -35,7 +35,10 @@ export const pageQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { internal: { content: { regex: "/ /" } } }
+    ) {
       edges {
         node {
           id

@@ -16,3 +16,5 @@ Change `trackingId` in `gatsby-config.js` at `gatsby-plugin-google-analytics` pl
 ### run locally:    
 npm run develop  
 see local version on http://localhost:8000
+
+inspect GraphQL schema in Playground at http://localhost:8000/___graphql 
