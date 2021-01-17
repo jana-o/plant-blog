@@ -1,9 +1,9 @@
-import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
-import Navigation from "../components/navigation"
-import 'prismjs/themes/prism-okaidia.css';
+import React from "react";
+import { Link, useStaticQuery, graphql } from "gatsby";
+import Navigation from "../components/navigation";
+import "prismjs/themes/prism-okaidia.css";
 
-export default ({ children }) => {
+export default (props) => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -14,19 +14,22 @@ export default ({ children }) => {
         }
       }
     `
-  )
+  );
   return (
     <div className="site-wrapper">
       <header className="site-header">
         <div className="site-title">
           <Link to="/">{data.site.siteMetadata.title}</Link>
         </div>
-        <Navigation />
+        <Navigation
+          handleSearchTermInput={props.handleSearchTermInput}
+          searchTerm={props.searchTerm}
+        />
       </header>
-      {children}
+      {props.children}
       <footer className="site-footer">
         <p>&copy; {new Date().getFullYear()} Zimmergruen</p>
       </footer>
     </div>
-  )
-}
+  );
+};

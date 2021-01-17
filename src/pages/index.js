@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
@@ -11,12 +11,22 @@ const IndexPage = ({
     allMarkdownRemark: { edges },
   },
 }) => {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleSearchTermInput = function(userInput) {
+    setSearchTerm(userInput);
+  };
+
   const Posts = edges
     .filter((edge) => !!edge.node.frontmatter.date)
+    .filter((edge) => edge.node.internal.content.includes(searchTerm))
     .map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
 
   return (
-    <Layout>
+    <Layout
+      handleSearchTermInput={handleSearchTermInput}
+      searchTerm={searchTerm}
+    >
       <Helmet>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
@@ -35,10 +45,7 @@ export const pageQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { internal: { content: { regex: "/ /" } } }
-    ) {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
           id
@@ -48,6 +55,9 @@ export const pageQuery = graphql`
             path
             title
             thumbnail
+          }
+          internal {
+            content
           }
         }
       }
