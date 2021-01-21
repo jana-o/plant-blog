@@ -19,7 +19,7 @@ const IndexPage = ({
 
   const Posts = edges
     .filter((edge) => !!edge.node.frontmatter.date)
-    .filter((edge) => edge.node.internal.content.includes(searchTerm))
+    .filter((edge) => edge.node.internal.content.toUpperCase().includes(searchTerm.toUpperCase()))
     .map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
 
   return (
